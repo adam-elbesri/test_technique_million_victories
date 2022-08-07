@@ -1,7 +1,5 @@
 <script>
-    export let value;
+	export let value;
 </script>
 
-<!-- TODO -->
-{value}
-<!--      -->
+<input type="time" bind:value class="input input-bordered w-full border-accent" />
